@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tar -xzf nexo-source.tar.gz",
     "build": "next build",
     "start": "next start"
   },
