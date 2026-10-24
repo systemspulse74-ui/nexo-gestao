@@ -9,3 +9,5 @@ Configure as variáveis seguras na Vercel e publique novamente:
 - WHATSAPP_BRIDGE_URL e WHATSAPP_BRIDGE_KEY: serviço externo de WhatsApp
 
 No Google, cadastre APP_URL/api/auth/google/callback como redirect URI. As tabelas são criadas automaticamente no banco. O acesso fica bloqueado até configurar banco e Google. Cabeçalhos de identidade do Sites nunca são aceitos nesta versão. Não coloque segredos no Git. A conexão WhatsApp continua em servidor persistente separado.
+
+Atualizado para publicar a integração de conversas do WhatsApp na Vercel.
